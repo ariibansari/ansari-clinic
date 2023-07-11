@@ -1,0 +1,45 @@
+.my-modal .modal-content {
+    width: 30rem;
+    background-color: var(--bg-color-2);
+    border-radius: 20px;
+
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.modal-header h2 {
+    width: 80%;
+    color: var(--text-color-2);
+    font-weight: 500;
+    font-size: var(--small-font-size);
+}
+
+.modal-header.border-bottom {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--text-color-3);
+}
+
+.modal-body {
+    /* background-color: var(--bg-color-1); */
+    padding: 2rem;
+    color: red !important;
+}
+
+.modal-footer {
+    border-toph: 1px solid var(--text-color-3);
+    padding: 0 2rem 1.5rem 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .my-modal .modal-content {
+        width: 90vw;
+    }
+}

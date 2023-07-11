@@ -1,0 +1,17 @@
+.under-dev {
+    height: 60dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.under-dev img {
+    border-radius: 20px;
+    width: 70%;
+}
+
+.under-dev h1 {
+    padding: 1rem;
+    text-align: center;
+}

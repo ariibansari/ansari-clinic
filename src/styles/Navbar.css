@@ -1,0 +1,48 @@
+nav {
+    background-color: var(--bg-color-2);
+    position: fixed;
+    bottom: 3dvh;
+    width: 95vw;
+    height: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5vh;
+    padding: 2vh 0;
+    overflow: visible;
+
+    background-color: rgb(10, 10, 10);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(1px);
+}
+
+
+nav .nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--bg-color-1-accent);
+    font-size: var(--tiny-font-size);
+    transition: all 100ms linear;
+
+}
+
+nav .nav-link svg {
+    font-size: var(--small-font-size);
+    fill: var(--bg-color-1-accent);
+    transition: all 100ms linear;
+}
+
+nav .nav-link.active {
+    color: var(--secondary-color);
+}
+
+nav .nav-link.active svg {
+    fill: var(--secondary-color);
+}
+
+nav .nav-link:active svg {
+    transform: scale(110%);
+}

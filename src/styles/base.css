@@ -1,0 +1,35 @@
+:root {
+    /* Colors */
+    --bg-color-1: #012f33;
+    --bg-color-1-accent: #919191;
+    --bg-color-2: #ddebec;
+    --bg-color-3: #fef5ec;
+
+    --text-color-1: #ddebec;
+    --text-color-2: #012f33;
+    --text-color-3: #cbdada;
+
+    --primary-color: #65cccc;
+    --primary-color-hover: #6bd8d8;
+    --secondary-color: #e78f5c;
+    --secondary-color-hover: #ffb083;
+
+
+    /* Font Sizes */
+    --tiny-font-size: 12px;
+    --small-font-size: 18px;
+    --medium-font-size: 21px;
+    --large-font-size: 25px;
+    --logo-size: 80px;
+
+    /* Spacing */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+
+    /* Breakpoints */
+    --small-screen: 576px;
+    --medium-screen: 768px;
+    --large-screen: 992px;
+    --extra-large-screen: 1200px;
+}

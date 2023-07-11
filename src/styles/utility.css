@@ -1,0 +1,35 @@
+@import url(./base.css);
+
+.button {
+    width: 10rem;
+    border: solid;
+    background-color: var(--clr-bg);
+    color: var(--clr-text);
+}
+
+.section {}
+
+
+.text-color-1 {
+    color: var(--text-color-1);
+}
+
+.text-color-2 {
+    color: var(--text-color-2);
+}
+
+.text-color-3 {
+    color: var(--text-color-3);
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.flex{
+    align-items: center;
+}
