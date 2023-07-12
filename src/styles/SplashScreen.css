@@ -1,0 +1,77 @@
+.splash-screen {
+    width: 100vw;
+    height: 100dvh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--bg-color-1);
+    z-index: 3;
+    transition:
+        all 250ms ease-in-out,
+        opacity 200ms linear;
+    animation-duration: 250ms;
+    animation-timing-function: ease-in-out;
+    animation-play-state: paused;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.splash-screen.show {
+    left: 0;
+    opacity: 1;
+}
+
+.splash-screen.hide {
+    left: -100%;
+    opacity: 0;
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.splash-screen svg {
+    /* margin-right: -100rem !important; */
+    width: 5rem;
+    fill: var(--primary-color);
+}
+
+.logo-text {
+    /* display: flex; */
+    /* gap: 7px; */
+}
+
+.logo-text h1 {
+    margin: -20px 0;
+    font-size: 40px !important;
+}
+
+.logo-text h2 {
+    margin: -20px 0;
+    font-size: 40px !important;
+    color: var(--text-color-1);
+    /* text-align: right; */
+}
+
+
+
+
+
+
+
+
+
+
+.toggle-splash-screen-button {
+    position: fixed;
+    z-index: 4;
+    right: 10vw;
+    top: 10dvh;
+}

@@ -13,10 +13,12 @@
     "host": true
   },
   "dependencies": {
+    "crypto-js": "^4.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
-    "react-router-dom": "^6.14.1"
+    "react-router-dom": "^6.14.1",
+    "react-tracked": "^1.7.11"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

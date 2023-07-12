@@ -1,31 +1,20 @@
 import './App.css'
-import Button from './components/Button'
-import { AiFillAlert, AiOutlineArrowLeft, AiOutlineLink } from 'react-icons/ai'
-import { RiExternalLinkLine } from 'react-icons/ri'
-import Modal from './components/Modal'
 import { useState } from 'react'
-import Logo from './components/Logo'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import LabTests from './pages/LabTests'
 import Letter from './pages/Letter'
 import Settings from './pages/Settings'
 import NavigationBar from './components/NavigationBar'
+import SplashScreen from './components/SplashScreen'
+import { useSetState, useTrackedState } from './context/store'
 
 function App() {
-
-  const [isOpen, setIsOpen] = useState(false);
-
-  const openModal = () => {
-    setIsOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsOpen(false);
-  };
+  const setState = useSetState();
+  const state = useTrackedState();
 
   return (
-    <>
+    <><SplashScreen />
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
