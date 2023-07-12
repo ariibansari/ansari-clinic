@@ -7,7 +7,7 @@ const SplashScreen = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            setShowingSplashScreen(false)
+            // setShowingSplashScreen(false)
         }, 2000)
     }, [])
 

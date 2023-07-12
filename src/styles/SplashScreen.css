@@ -43,6 +43,23 @@
     fill: var(--primary-color);
 }
 
+.logo {
+    margin-bottom: 5rem;
+    transform: scale(0.9);
+    animation: logoAnimation 3000ms linear;
+}
+
+@keyframes logoAnimation {
+    0% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
 .logo-text {
     /* display: flex; */
     /* gap: 7px; */

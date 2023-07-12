@@ -30,9 +30,9 @@ const encrypt = (data, key) => {
 const decrypt = (encryptedData, key) => {
   // Implement your decryption algorithm here
   // This is a simplified example, you should use the corresponding decryption algorithm
-  const encryptedKey = encryptedData.substr(encryptedData.length - key.length);
+  const encryptedKey = encryptedData?.substring(encryptedData.length - key.length);
   if (encryptedKey === key) {
-    return encryptedData.substr(0, encryptedData.length - key.length).split('').reverse().join('');
+    return encryptedData.substring(0, encryptedData.length - key.length).split('').reverse().join('');
   }
   return null;
 };
