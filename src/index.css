@@ -8,7 +8,6 @@
 
 body {
     background-color: var(--bg-color-1);
-    padding: 4rem 5vw;
     font-family: 'Poppins', sans-serif;
     -webkit-tap-highlight-color: transparent;
 }
@@ -33,3 +32,4 @@ p {
     color: var(--text-color-1);
     font-size: var(--tiny-font-size)
 }
+

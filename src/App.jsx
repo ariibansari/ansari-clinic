@@ -8,13 +8,17 @@ import Settings from './pages/Settings'
 import NavigationBar from './components/NavigationBar'
 import SplashScreen from './components/SplashScreen'
 import { useSetState, useTrackedState } from './context/store'
+import Header from './components/Header'
+import MadeForMobileViewScreen from './components/MadeForMobileViewScreen'
 
 function App() {
   const setState = useSetState();
   const state = useTrackedState();
 
   return (
-    <><SplashScreen />
+    <>
+      <SplashScreen />
+      <MadeForMobileViewScreen />
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />

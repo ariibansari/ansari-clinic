@@ -1,0 +1,9 @@
+.app-header {
+    display: flex;
+    margin: 2vh 4vw;
+}
+
+.app-header .logo {
+    fill: var(--primary-color);
+    width: 3.5rem;
+}

@@ -3,6 +3,8 @@ import Button from '../components/Button'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
 import { useNavigate } from 'react-router-dom'
 import PageUnderDevelopment from '../components/PageUnderDevelopment'
+import Logo from '../components/Logo'
+import "../styles/Home.css"
 
 const Home = () => {
     const navigate = useNavigate()

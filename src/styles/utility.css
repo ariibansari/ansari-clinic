@@ -7,7 +7,9 @@
     color: var(--clr-text);
 }
 
-.section {}
+section {
+    padding: 0 5vw;
+}
 
 
 .text-color-1 {
@@ -30,6 +32,26 @@
     color: var(--secondary-color);
 }
 
-.flex{
+.flex {
     align-items: center;
 }
+
+header {
+    margin: 2rem 0 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+header h1 {
+    width: 100%;
+    text-align: center;
+}
+
+header button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3%;
+}
+

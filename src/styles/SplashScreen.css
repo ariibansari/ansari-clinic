@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     background-color: var(--bg-color-1);
-    z-index: 3;
+    z-index: 4;
     transition:
         all 250ms ease-in-out,
         opacity 200ms linear;
@@ -43,7 +43,7 @@
     fill: var(--primary-color);
 }
 
-.logo {
+.splash-screen .logo {
     margin-bottom: 5rem;
     transform: scale(0.9);
     animation: logoAnimation 3000ms linear;
