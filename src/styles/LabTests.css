@@ -1,4 +1,4 @@
-.test-list{
+.test-list {
     padding: 3dvh 6vw;
 }
 
@@ -43,4 +43,65 @@
     align-items: center;
     background-color: var(--secondary-color);
     transition: color 100ms linear;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    max-height: 40dvh;
+    overflow-y: scroll;
+}
+
+.contact {
+    display: flex;
+    border-bottom: 1px solid var(--bg-color-2);
+    padding: .6rem 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.contact .left{
+    margin-top: 6px;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 100%;
+    border: 1px solid var(--secondary-color);
+    position: relative;
+}
+
+.contact.selected .left::before{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 100%;
+    background-color: var(--secondary-color);
+}
+
+.contact .right p {
+    color: var(--text-color-2);
+    font-size: var(--small-font-size);
+}
+.contact.selected .right p{
+    font-weight: 600;
+}
+
+.contact .right span {
+    color: var(--text-color-2);
+    font-size: var(--little-font-size);
+}
+.contact.selected .right span{
+    font-weight: 500;
 }

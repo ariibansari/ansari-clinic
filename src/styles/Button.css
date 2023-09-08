@@ -1,5 +1,5 @@
 .button {
-    font-size: var(--tiny-font-size);
+    font-size: var(--little-font-size);
     font-weight: 500;
     transition: all 100ms linear;
     padding: .8rem 3rem;
@@ -12,6 +12,11 @@
     gap: 10px;
     min-width: fit-content;
     border: none !important;
+}
+
+.button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
 }
 
 .button svg {

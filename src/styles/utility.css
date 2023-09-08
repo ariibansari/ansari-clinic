@@ -32,6 +32,27 @@ section {
     color: var(--secondary-color);
 }
 
+.text-danger {
+    color: red;
+    font-size: var(--small-font-size);
+}
+
+.font-tiny{
+    font-size: var(--tiny-font-size) !important;
+}
+.font-little{
+    font-size: var(--little-font-size) !important;
+}
+.font-small{
+    font-size: var(--small-font-size) !important;
+}
+.font-medium{
+    font-size: var(--medium-font-size) !important;
+}
+.font-large{
+    font-size: var(--large-font-size) !important;
+}
+
 .flex {
     align-items: center;
 }
@@ -55,3 +76,26 @@ header button {
     left: 3%;
 }
 
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.input-group label {
+    color: var(--text-color-2);
+    font-size: var(--little-font-size);
+}
+
+.input-group input {
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid var(--text-color-2);
+    width: 90%;
+    height: 2.5rem;
+    padding: 0 8px !important;
+    color: var(--text-color-2);
+}
