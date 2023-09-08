@@ -13,7 +13,7 @@ const SplashScreen = () => {
 
     return (
         <>
-            <section className={`splash-screen ${showingSplashScreen ? "show" : "hide"}`}>
+            <section className={`splash-screen ${showingSplashScreen ? "show" : "hide"}`} style={{ paddingBottom: '0' }}>
                 <div className='logo'>
                     <Logo />
                     <div className='logo-text'>

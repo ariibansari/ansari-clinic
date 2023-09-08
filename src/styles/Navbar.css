@@ -12,7 +12,7 @@ nav {
     padding: 2vh 0;
     overflow: visible;
 
-    background-color: rgb(10, 10, 10);
+    background-color: rgba(10, 10, 10, 0.712);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(1px);
 
