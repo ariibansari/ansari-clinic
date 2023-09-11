@@ -2,7 +2,7 @@
   "name": "ansari-clinic",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ansariarib.com",
+  "homepage": "https://clinic.ansariarib.com",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
