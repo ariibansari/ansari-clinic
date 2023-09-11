@@ -19,7 +19,7 @@ function App() {
     <>
       <SplashScreen />
       <MadeForMobileViewScreen />
-      <BrowserRouter>
+      <BrowserRouter basename='/clinic'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/lab-tests' element={<LabTests />} />
